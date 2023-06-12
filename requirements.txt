@@ -3,3 +3,4 @@ appwrite
 gunicorn
 pandas
 python-dotenv
+elasticsearch
