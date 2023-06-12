@@ -26,8 +26,8 @@ app.wsgi_app = ExcludePostProfilerMiddleware(app.wsgi_app, profile_dir='./profil
 #es = Elasticsearch(hosts=["http://localhost:9200"])
 #Y3I3SXBZZ0JWRTNEcHpWZU5GOFc6ck5nUnh6ZkVTMG1COU11aUpkZF9tdw==
 es = Elasticsearch(
-    cloud_id=os.getenv("CLOUD_ID"),
-    api_key=os.getenv("API_KEY"),
+    cloud_id="my_deployment:dXMtZ292LWVhc3QtMS5hd3MuZWxhc3RpYy1jbG91ZC5jb20kODAwNDlkMmYxNTZmNDk0MWJlZjRiNTIyZTE3NDQ5NzkkMjc4MDdlMjllMThhNDc4ZmE2MmQ4MGM1NmI2NzQwN2I=",
+    api_key="Y3I3SXBZZ0JWRTNEcHpWZU5GOFc6ck5nUnh6ZkVTMG1COU11aUpkZF9tdw==",
 )
 ## THIS IS THE OCE TO CREATE INDEX IN THE ELASTC SEARCH AND LOAD THE DATA IN IT
 
